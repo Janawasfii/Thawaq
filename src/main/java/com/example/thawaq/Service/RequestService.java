@@ -34,8 +34,7 @@ public class RequestService {
         return requestRepository.findRequestByExpert(expert);
     }
 
-    //Add Request from store admin to the expert(That Expert can rate the store)
-    //V3
+   //Jana
     public void addRequest(Request request,Integer storeAdminId,Integer expertId) {
         StoreAdmin storeAdmin = storeAdminRepository.findStoreAdminById(storeAdminId);
         Expert e = expertRepository.findExpertById(expertId);
