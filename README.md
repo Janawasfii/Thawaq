@@ -21,8 +21,9 @@ The system comprises a total of 12 entities, including four types of users, and 
 
 
 
+<img width="740" alt="Thawaq Use Case Diagram" src="https://github.com/user-attachments/assets/430a89b3-35aa-41ad-bbe7-c5974e0d2dee">
 
-<img width="431" alt="Use Case Diagram" src="https://github.com/user-attachments/assets/6f615cff-fa07-48cc-963e-1e76a082211b">
+
 
 
 ![3f286489-472e-4cf7-98e0-dc1a11b43fd7](https://github.com/user-attachments/assets/13badc79-7c1f-4ff5-951b-6eacfc492cf8)
