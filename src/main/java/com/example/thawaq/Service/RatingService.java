@@ -21,7 +21,7 @@ public class RatingService {
     private final UserRepository userRepository;
     private final MenuRepository menuRepository;
     private final ClientRepository clientRepository;
-
+//Jana
     public List<Rating> getAllRatings() {
         return ratingRepository.findAll();
     }
@@ -37,7 +37,7 @@ public class RatingService {
         Expert expert = expertRepository.findExpertById(id);
         return ratingRepository.findRatingByExpert(expert);
     }
-
+//Jana
     //Add rating from the user to the store  v3
     public void addRatingFromUserToStore(Rating rating,Integer userId, Integer storeId) {
         Client c  = clientRepository.findClientById(userId);
@@ -54,7 +54,7 @@ public class RatingService {
         rating.setAverageRating(avr);
         ratingRepository.save(rating);}
 
-    //Add rating from expert to the store  v3
+    //Jana
     public void addRatingFromExpertToStore(Rating rating,Integer expertId, Integer storeId) {
         Expert e =expertRepository.findExpertById(expertId);
         Store s = storeRepository.findStoreById(storeId);
@@ -647,7 +647,7 @@ public class RatingService {
     }
 
 
-
+//Jana
     public double CalculateAverageServiceStore(Integer storeId) {
         Store store =storeRepository.findStoreById(storeId);
         if (store == null) {
@@ -664,7 +664,7 @@ public class RatingService {
     }
 
 
-    //V3
+    //Jana
     public List<Store> getTop4CafesByAverageRating() {
         List<Store> allStores = storeRepository.findAll();
         List<Store> cafeList = new ArrayList<>();
@@ -683,7 +683,7 @@ public class RatingService {
         return bestTop4Cafes;}
 
 
-    //V3
+    //Jana
     public List<Store> getTop4RestaurantByAverageRating() {
         List<Store> allStores = storeRepository.findAll();
         List<Store> restaurantList = new ArrayList<>();
