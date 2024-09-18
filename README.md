@@ -6,6 +6,7 @@ To ensure that customers find the best possible stores based on their preference
 From a technical perspective, the platform has been built using the Spring Boot framework, connected to a MySQL database. It has been effectively secured and thoroughly tested to ensure quality.
 
 The system comprises a total of 12 entities, including four types of users, and features more than 100 endpoints to serve users and ensure that all requirements are met comprehensively.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -34,29 +35,29 @@ https://slidesgo.com/editor/share/9d075d96-f625-4459-a91b-c2c51fe8c9c5?embed=0&e
 https://www.figma.com/design/1CZxolWa71YlKEo5zow0jI/Thawaq?node-id=0-1&t=ZMWrqEWQNURWh0N8-1
 
 My Endpoints:
-applyDiscountToCategoryByName
-findDishesByPriceRange
-getAllRatings
-getMyRatingForClient
-getMyRatingForExpert
-addRatingToStore
-addRatingFromExpertToStore
-CalculateAverageServiceStore
-getTop4CafesByAverageRating
-getTop4RestaurantByAverageRating
-getMyRequestForExpert
-findStoreByTypeOfActivity
-getBestServiceForCafesByName
-getBestServiceForRestaurantByName
-getBestServiceForBothByName
-getBestServiceForCafesByCategoryName
-getBestServiceForRestaurantByCategoryName
-getBestServiceForBothByCategoryName
-getBestServiceForCafeByCityName
-getBestServiceForRestaurantByCityName
-getBestServiceForBothByCityName
-activateStoreAdmin
-deactivateStoreAdmin
+-applyDiscountToCategoryByName
+-findDishesByPriceRange
+-getAllRatings
+-getMyRatingForClient
+-getMyRatingForExpert
+-addRatingToStore
+-addRatingFromExpertToStore
+-CalculateAverageServiceStore
+-getTop4CafesByAverageRating
+-getTop4RestaurantByAverageRating
+-getMyRequestForExpert
+-findStoreByTypeOfActivity
+-getBestServiceForCafesByName
+-getBestServiceForRestaurantByName
+-getBestServiceForBothByName
+-getBestServiceForCafesByCategoryName
+-getBestServiceForRestaurantByCategoryName
+-getBestServiceForBothByCategoryName
+-getBestServiceForCafeByCityName
+-getBestServiceForRestaurantByCityName
+-getBestServiceForBothByCityName
+-activateStoreAdmin
+-deactivateStoreAdmin
 
 The Model : Rating and Request
 The CRUD: Rating and Requesy
