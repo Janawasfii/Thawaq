@@ -63,7 +63,7 @@ public class StoreService {
         storeRepository.deleteById(id);
     }
 
-    //Find Store by Type of Acivity //Jana v2
+    //Jana
     public List<Store> findStoreByTypeOfActivity(String typeOfActivity){
         List<Store> stores = storeRepository.findStoreByTypeOfActivity(typeOfActivity);
         if(stores.isEmpty()){
@@ -542,7 +542,7 @@ public class StoreService {
 
     }
 
-    //V3 Jana
+   //Jana
     public List<Store> getBestServiceForCafesByName(String name) {
         List<Store> stores = storeRepository.findStoreByName(name);
         List<Store> cafeList = new ArrayList<>();
@@ -561,7 +561,7 @@ public class StoreService {
         return sortedCafes;}
 
 
-    //V3 Jana
+    //Jana
     public List<Store> getBestServiceForRestaurantByName(String name) {
         List<Store> stores = storeRepository.findStoreByName(name);
         List<Store> restaurantList = new ArrayList<>();
@@ -580,7 +580,7 @@ public class StoreService {
         return sortedRestaurant;}
 
 
-    //V3
+     //Jana
     public List<Store> getBestServiceForBothByName(String name) {
         List<Store> stores = storeRepository.findStoreByName(name);
         List<Store> bothStoresList = new ArrayList<>();
@@ -599,7 +599,7 @@ public class StoreService {
         return sortedRestaurant;}
 
 
-    //V3
+    //Jana
     public List<Store> getBestServiceForCafesByCategoryName(String categoryName) {
         Category category = categoryRepository.findCategoryByName(categoryName);
         List<Menu> menus = menuRepository.findMenuByCategory(category);
@@ -624,7 +624,7 @@ public class StoreService {
 
 
 
-    //V3
+   //Jana
     public List<Store> getBestServiceForRestaurantByCategoryName(String categoryName) {
         Category category = categoryRepository.findCategoryByName(categoryName);
         List<Menu> menus = menuRepository.findMenuByCategory(category);
@@ -647,7 +647,7 @@ public class StoreService {
         return bestRestaurant;}
 
 
-    //V3
+    //Jana
     public List<Store> getBestServiceForBothByCategoryName(String categoryName) {
         Category category = categoryRepository.findCategoryByName(categoryName);
         List<Menu> menus = menuRepository.findMenuByCategory(category);
@@ -670,7 +670,7 @@ public class StoreService {
         return bestForBoth;}
 
 
-    //V3
+ //Jana
     public List<Store> getBestServiceForCafeByCityName(String cityName) {
         List<Address> addresses = addressRepository.findAddressByCity(cityName);
         List<Store> stores = new ArrayList<>();
@@ -692,7 +692,7 @@ public class StoreService {
         return bestCafe;}
 
 
-    //V3
+  //Jana
     public List<Store> getBestServiceForRestaurantByCityName(String cityName) {
         List<Address> addresses = addressRepository.findAddressByCity(cityName);
         List<Store> stores = new ArrayList<>();
@@ -714,7 +714,7 @@ public class StoreService {
         return bestRestaurant;}
 
 
-    //V3
+ //Jana
     public List<Store> getBestServiceForBothByCityName(String cityName) {
         List<Address> addresses = addressRepository.findAddressByCity(cityName);
         List<Store> stores = new ArrayList<>();
